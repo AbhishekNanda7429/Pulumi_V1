@@ -1,0 +1,10 @@
+name: Pulumi_V1_trial
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: its for testing the trial account case
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
